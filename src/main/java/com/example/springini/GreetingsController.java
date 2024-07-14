@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * A sample greetings controller to return greeting text
  */
 @RestController
+@RequestMapping("/hello")
 public class GreetingsController {
     /**
      *
